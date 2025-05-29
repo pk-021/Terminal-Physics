@@ -1,0 +1,45 @@
+# Build directories
+/build/
+/build-*/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+install_manifest.txt
+
+# Compiled object files, libraries, binaries
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.user
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test outputs and core dumps
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+core
+
+# Package output
+*.tar.gz
+*.zip
